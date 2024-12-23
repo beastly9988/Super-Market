@@ -67,6 +67,7 @@ class Market :
         
     
     def view_cart(self) :
+        total = 0
         if not self.cart:
             print("Your cart is empty.")
             return
